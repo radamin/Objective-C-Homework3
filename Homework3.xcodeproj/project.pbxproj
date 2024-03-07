@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		06C31F462B9974BB004C3D40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C31F452B9974BB004C3D40 /* main.m */; };
+		06C31F4E2B997594004C3D40 /* Doctor.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C31F4D2B997594004C3D40 /* Doctor.m */; };
+		06C31F512B997604004C3D40 /* Patient.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C31F502B997604004C3D40 /* Patient.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,11 @@
 /* Begin PBXFileReference section */
 		06C31F422B9974BB004C3D40 /* Homework3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Homework3; sourceTree = BUILT_PRODUCTS_DIR; };
 		06C31F452B9974BB004C3D40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		06C31F4C2B99752D004C3D40 /* Doctor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Doctor.h; sourceTree = "<group>"; };
+		06C31F4D2B997594004C3D40 /* Doctor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Doctor.m; sourceTree = "<group>"; };
+		06C31F4F2B9975CC004C3D40 /* Patient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Patient.h; sourceTree = "<group>"; };
+		06C31F502B997604004C3D40 /* Patient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Patient.m; sourceTree = "<group>"; };
+		06C31F522B997665004C3D40 /* PatientDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PatientDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,11 @@
 			isa = PBXGroup;
 			children = (
 				06C31F452B9974BB004C3D40 /* main.m */,
+				06C31F4C2B99752D004C3D40 /* Doctor.h */,
+				06C31F4D2B997594004C3D40 /* Doctor.m */,
+				06C31F4F2B9975CC004C3D40 /* Patient.h */,
+				06C31F502B997604004C3D40 /* Patient.m */,
+				06C31F522B997665004C3D40 /* PatientDelegate.h */,
 			);
 			path = Homework3;
 			sourceTree = "<group>";
@@ -119,6 +131,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06C31F512B997604004C3D40 /* Patient.m in Sources */,
+				06C31F4E2B997594004C3D40 /* Doctor.m in Sources */,
 				06C31F462B9974BB004C3D40 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

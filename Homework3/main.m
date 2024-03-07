@@ -6,11 +6,15 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Doctor.h"
+#import "Patient.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        
+        Patient *patient = [[Patient alloc] init];
+        [patient visitDoctor];
+        
     }
     return 0;
 }
